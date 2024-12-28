@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "celery-blog"
+version = "0.1.0"
+description = ""
+authors = ["Jacek Ostański <jacek@ivolution.pl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.1.4"
+redis = "^5.2.1"
+celery = "^5.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
